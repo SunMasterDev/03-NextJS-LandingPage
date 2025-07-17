@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Korean Fashion Store Landing Page
+
+A modern, responsive clothing store landing page built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern Korean fashion aesthetic with soft pastel colors
+- 📱 Fully responsive design from mobile to desktop
+- 🧭 Sticky navigation with smooth scrolling
+- 🏠 Hero section with full-width background image
+- 📂 Product categories (Women, Men, Accessories)
+- 🛍️ Best-selling products grid
+- 💬 Customer testimonials
+- 📸 Instagram-style image gallery
+- 📞 Contact information and social media links
+
+## Tech Stack
+
+- **Next.js 15** - React framework with app directory
+- **TypeScript** - Type safety and better developer experience
+- **Tailwind CSS** - Utility-first CSS framework
+- **Inter Font** - Clean, modern typography
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd clothing-store-landing
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Navigation.tsx
+│   ├── Hero.tsx
+│   ├── Categories.tsx
+│   ├── Products.tsx
+│   ├── Testimonials.tsx
+│   ├── Gallery.tsx
+│   └── Footer.tsx
+├── types/
+│   └── index.ts
+├── tailwind.config.js
+├── next.config.js
+├── tsconfig.json
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Color Palette
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Korean Beige**: `#F5F5DC`
+- **Korean Pink**: `#FFE4E1`
+- **Korean Grey**: `#F8F8F8`
+- **Korean Dark**: `#2C2C2C`
 
-## Deploy on Vercel
+## Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+The project uses placeholder images from [via.placeholder.com](https://via.placeholder.com). Replace these with your actual product images for production use.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE). 
